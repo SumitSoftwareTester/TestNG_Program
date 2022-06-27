@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Completed]]>
+    </line>
+    <line>
+      <![CDATA[Data has been deleted]]>
+    </line>
+    <line>
+      <![CDATA[Logout done]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-25T17:52:34Z" name="Suite1" finished-at="2022-05-25T17:53:33Z" duration-ms="59489">
+    <groups>
+    </groups>
+    <test started-at="2022-05-25T17:52:34Z" name="Nopackage" finished-at="2022-05-25T17:53:33Z" duration-ms="59489">
+      <class name="com.hrms.testng.ut.TC_002_Retrive_link">
+        <test-method is-config="true" signature="open_app()[pri:0, instance:com.hrms.testng.ut.TC_002_Retrive_link@7a35b0f5]" started-at="2022-05-25T23:23:20Z" name="open_app" finished-at="2022-05-25T23:23:28Z" duration-ms="7508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_app -->
+        <test-method signature="getlink()[pri:0, instance:com.hrms.testng.ut.TC_002_Retrive_link@7a35b0f5]" started-at="2022-05-25T23:23:28Z" name="getlink" finished-at="2022-05-25T23:23:33Z" duration-ms="5021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getlink -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:com.hrms.testng.ut.TC_002_Retrive_link@7a35b0f5]" started-at="2022-05-25T23:23:33Z" name="closeapp" finished-at="2022-05-25T23:23:33Z" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.hrms.testng.ut.TC_002_Retrive_link -->
+      <class name="com.hrms.testng.ut.Ex_WB_Testng">
+        <test-method is-config="true" signature="startup()[pri:0, instance:com.hrms.testng.ut.Ex_WB_Testng@14028087]" started-at="2022-05-25T23:22:34Z" name="startup" finished-at="2022-05-25T23:22:48Z" duration-ms="14389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method signature="alogin()[pri:0, instance:com.hrms.testng.ut.Ex_WB_Testng@14028087]" started-at="2022-05-25T23:22:48Z" name="alogin" finished-at="2022-05-25T23:23:20Z" duration-ms="31572" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Completed]]>
+            </line>
+            <line>
+              <![CDATA[Data has been deleted]]>
+            </line>
+            <line>
+              <![CDATA[Logout done]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- alogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.hrms.testng.ut.Ex_WB_Testng@14028087]" started-at="2022-05-25T23:23:20Z" name="teardown" finished-at="2022-05-25T23:23:20Z" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.hrms.testng.ut.Ex_WB_Testng -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>

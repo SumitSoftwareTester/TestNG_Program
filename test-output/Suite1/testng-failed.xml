@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]">
+  <test parallel="none" name="Nopackage(failed)">
+    <classes>
+      <class name="com.hrms.testng.ut.TC_002_Retrive_link">
+        <methods>
+          <include name="open_app"/>
+          <include name="closeapp"/>
+        </methods>
+      </class> <!-- com.hrms.testng.ut.TC_002_Retrive_link -->
+      <class name="com.hrms.testng.ut.Ex_WB_Testng">
+        <methods>
+          <include name="alogin"/>
+          <include name="startup"/>
+        </methods>
+      </class> <!-- com.hrms.testng.ut.Ex_WB_Testng -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
